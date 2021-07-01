@@ -1,14 +1,14 @@
 import colorama #line:1:import colorama
 from colorama import Fore ,Back ,Style #line:2:from colorama import Fore, Back, Style
 colorama .init (autoreset =True )#line:3:colorama.init(autoreset=True)
-def add (OO0OO0OO0O0OOO0O0 ,OOOO0O00000O0000O ):#line:5:def add(x, y):
-    return OO0OO0OO0O0OOO0O0 +OOOO0O00000O0000O #line:6:return x + y
-def div (O0O0000OO0O0OOOO0 ,O00000OO00OO000O0 ):#line:7:def div(x, y):
-    return O0O0000OO0O0OOOO0 -O00000OO00OO000O0 #line:8:return x - y
-def mul (OO000000O0OOO00O0 ,OO00O0OO0O000O0OO ):#line:9:def mul(x, y):
-    return OO000000O0OOO00O0 *OO00O0OO0O000O0OO #line:10:return x * y
-def sub (OOO0O000O0OOO000O ,OO00O00O00O00O00O ):#line:11:def sub(x, y):
-    return OOO0O000O0OOO000O /OO00O00O00O00O00O #line:12:return x / y
+def add (OO0OO0OO0O0OOO0O0 ,OOOO0O00000O0000O ):
+    return OO0OO0OO0O0OOO0O0 +OOOO0O00000O0000O 
+def div (O0O0000OO0O0OOOO0 ,O00000OO00OO000O0 ):
+    return O0O0000OO0O0OOOO0 -O00000OO00OO000O0 
+def mul (OO000000O0OOO00O0 ,OO00O0OO0O000O0OO ):
+    return OO000000O0OOO00O0 *OO00O0OO0O000O0OO 
+def sub (OOO0O000O0OOO000O ,OO00O00O00O00O00O ):
+    return OOO0O000O0OOO000O /OO00O00O00O00O00O 
 print ('\033[31m'+'Calculator | What do you want?')#line:13:print('\033[31m' + 'Calculator | What do you want?')
 print ('\033[32m'+'1. Addition')#line:14:print('\033[32m' + '1. Addition')
 print ('\033[32m'+'2. Division')#line:15:print('\033[32m' + '2. Division')
